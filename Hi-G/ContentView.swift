@@ -8,9 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isSelection = 1
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            TabView(selection: $isSelection) {
+                Group() {
+                    HomeView()
+                        .tabItem {
+                            Image(systemName: "house")
+                            Text("Home")
+                            
+                        }
+                        .tag(1)
+                    
+                    InterfaceView()
+                        .tabItem {
+                            Image(systemName: "rectangle.and.hand.point.up.left.filled")
+                            Text("Interface")
+                        }
+                        .tag(2)
+                }
+                .padding(.horizontal, 16)
+            }
+        }
     }
 }
 
