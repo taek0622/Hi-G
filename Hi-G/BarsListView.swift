@@ -9,6 +9,11 @@ import SwiftUI
 
 struct BarsListView: View {
     var body: some View {
-        Text("BarsList")
+        NavigationLink(destination: Text("Navigation Bars"), label: { Text("Navigation Bars") })
+        NavigationLink(destination: SearchBarsView(), label: { Text("Search Bars") })
+        NavigationLink(destination: Text("Sidebars"), label: { Text("Sidebars") })
+        NavigationLink(destination: Text("Status Bars"), label: { Text("Status Bars") })
+        NavigationLink(destination: Text("Tab Bars"), label: { Text("Tab Bars") })
+        NavigationLink(destination: Text("Toolbars"), label: { Text("Toolbars") })
     }
 }

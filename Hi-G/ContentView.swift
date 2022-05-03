@@ -18,7 +18,6 @@ struct ContentView: View {
                         .tabItem {
                             Image(systemName: "house")
                             Text("Home")
-                            
                         }
                         .tag(1)
                     
@@ -31,6 +30,8 @@ struct ContentView: View {
                 }
                 .padding(.horizontal, 16)
             }
+            .navigationTitle("Hi-G")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

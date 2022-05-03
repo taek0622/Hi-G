@@ -11,7 +11,7 @@ struct LandingButton: View {
     var btnText: String
     
     var body: some View {
-        NavigationLink(destination: InterfaceList(btnText: btnText),
+        NavigationLink(destination: InterfaceList(),
                        label: { Text(btnText) })
             .frame(maxWidth: .infinity, maxHeight: 200)
             .background(RoundedRectangle(cornerRadius: 10)
