@@ -8,16 +8,28 @@
 import SwiftUI
 
 struct InterfaceList: View {
-    var btnText: String
+    @State private var topNavSelection = "Bars"
     
     var body: some View {
-        VStack {
-            InterfaceTopBar()
-            ScrollView {
-                List {
-                    
+        VStack(spacing: 0) {
+            InterfaceTopBar(topNavSelection: self.$topNavSelection)
+            List {
+                if topNavSelection == "Bars" {
+                    BarsListView()
                 }
-            }
+                if topNavSelection == "Views" {
+                    ViewsListView()
+                }
+                if topNavSelection == "Controls" {
+                    ControlsListView()
+                }
+            }.frame(alignment: .leading)
         }
+    }
+}
+
+struct InterfaceList_Previews: PreviewProvider {
+    static var previews: some View {
+        InterfaceList()
     }
 }

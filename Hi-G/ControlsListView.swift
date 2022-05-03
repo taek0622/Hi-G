@@ -9,6 +9,21 @@ import SwiftUI
 
 struct ControlsListView: View {
     var body: some View {
-        Text("ControlsList")
+        Group() {
+            NavigationLink(destination: Text("Buttons"), label: { Text("Buttons") })
+            NavigationLink(destination: Text("Color Wells"), label: { Text("Color Wells") })
+            NavigationLink(destination: Text("Context Menus"), label: { Text("Context Menus") })
+            NavigationLink(destination: Text("Edit Menus"), label: { Text("Edit Menus") })
+            NavigationLink(destination: Text("Labels"), label: { Text("Lables") })
+            NavigationLink(destination: Text("Page Controls"), label: { Text("Page Controls") })
+            NavigationLink(destination: Text("Pickers"), label: { Text("Pickers") })
+            NavigationLink(destination: Text("Progress Indicators"), label: { Text("Progress Indicators") })
+            NavigationLink(destination: Text("Refresh Content Controls"), label: { Text("Refresh Content Controls") })
+            NavigationLink(destination: Text("Segmented Controls"), label: { Text("Segmented Controls") })
+        }
+        NavigationLink(destination: Text("Sliders"), label: { Text("Sliders") })
+        NavigationLink(destination: Text("Steppers"), label: { Text("Steppers") })
+        NavigationLink(destination: Text("Switches"), label: { Text("Switches") })
+        NavigationLink(destination: Text("Text Fields"), label: { Text("Text Fields") })
     }
 }
