@@ -15,7 +15,16 @@ struct TabBarsView: View {
         VStack {
             VStack {
                 Stepper(value: $cntTab, in: 2...6) {
-                    Text("Tab 개수: \(cntTab)개")
+                    HStack {
+                        Text("Tab 개수: ")
+                        if cntTab < 3 || cntTab > 5 {
+                            Text("\(cntTab)").font(.system(size: 30)).bold().foregroundColor(Color.red)
+                        }
+                        else {
+                            Text("\(cntTab)").font(.system(size: 30)).bold().foregroundColor(Color.black)
+                        }
+                        Text("개")
+                    }
                 }
             }
             .padding(.horizontal, 16)
@@ -64,7 +73,7 @@ struct TabBarsView: View {
                 if cntTab < 3 || cntTab > 5 {
                     VStack {
                         Spacer()
-                        Text("iPhone에서는 일반적으로 3~5개의 탭을 사용합니다")
+                        Text("iPhone에서는 일반적으로 3~5개의 탭을 사용합니다.")
                             .padding(10)
                             .foregroundColor(Color.white)
                             .background(RoundedRectangle(cornerRadius: 10).fill(Color.red))

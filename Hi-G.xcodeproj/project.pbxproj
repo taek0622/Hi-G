@@ -17,6 +17,11 @@
 		263CC28E2820C00F006637E3 /* SearchBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC28D2820C00F006637E3 /* SearchBarsView.swift */; };
 		263CC2902820C59F006637E3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263CC28F2820C59F006637E3 /* Colors.xcassets */; };
 		263CC29228211106006637E3 /* TabBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC29128211106006637E3 /* TabBarsView.swift */; };
+		263CC29428214229006637E3 /* NavigationBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC29328214229006637E3 /* NavigationBarsView.swift */; };
+		263CC29628215328006637E3 /* ActionSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC29528215328006637E3 /* ActionSheetsView.swift */; };
+		263CC29828215A98006637E3 /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC29728215A98006637E3 /* AlertsView.swift */; };
+		263CC29A2821618C006637E3 /* ScrollViewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC2992821618C006637E3 /* ScrollViewsView.swift */; };
+		263CC29C2821709C006637E3 /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC29B2821709C006637E3 /* SheetsView.swift */; };
 		265C50C1281E9BBB00D0303C /* Hi_GApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C50C0281E9BBB00D0303C /* Hi_GApp.swift */; };
 		265C50C3281E9BBB00D0303C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C50C2281E9BBB00D0303C /* ContentView.swift */; };
 		265C50C5281E9BBC00D0303C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265C50C4281E9BBC00D0303C /* Assets.xcassets */; };
@@ -35,6 +40,11 @@
 		263CC28D2820C00F006637E3 /* SearchBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarsView.swift; sourceTree = "<group>"; };
 		263CC28F2820C59F006637E3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		263CC29128211106006637E3 /* TabBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarsView.swift; sourceTree = "<group>"; };
+		263CC29328214229006637E3 /* NavigationBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarsView.swift; sourceTree = "<group>"; };
+		263CC29528215328006637E3 /* ActionSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetsView.swift; sourceTree = "<group>"; };
+		263CC29728215A98006637E3 /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
+		263CC2992821618C006637E3 /* ScrollViewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsView.swift; sourceTree = "<group>"; };
+		263CC29B2821709C006637E3 /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
 		265C50BD281E9BBB00D0303C /* Hi-G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hi-G.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		265C50C0281E9BBB00D0303C /* Hi_GApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi_GApp.swift; sourceTree = "<group>"; };
 		265C50C2281E9BBB00D0303C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +69,7 @@
 			children = (
 				263CC28D2820C00F006637E3 /* SearchBarsView.swift */,
 				263CC29128211106006637E3 /* TabBarsView.swift */,
+				263CC29328214229006637E3 /* NavigationBarsView.swift */,
 			);
 			path = BarsList;
 			sourceTree = "<group>";
@@ -66,6 +77,10 @@
 		263CC28B2820BF97006637E3 /* ViewsList */ = {
 			isa = PBXGroup;
 			children = (
+				263CC2992821618C006637E3 /* ScrollViewsView.swift */,
+				263CC29528215328006637E3 /* ActionSheetsView.swift */,
+				263CC29728215A98006637E3 /* AlertsView.swift */,
+				263CC29B2821709C006637E3 /* SheetsView.swift */,
 			);
 			path = ViewsList;
 			sourceTree = "<group>";
@@ -201,11 +216,16 @@
 				265C50CF281EA34B00D0303C /* HomeView.swift in Sources */,
 				265C50C3281E9BBB00D0303C /* ContentView.swift in Sources */,
 				263CC285281FB408006637E3 /* ControlsListView.swift in Sources */,
+				263CC29628215328006637E3 /* ActionSheetsView.swift in Sources */,
 				263CC289281FC361006637E3 /* InterfaceList.swift in Sources */,
+				263CC29A2821618C006637E3 /* ScrollViewsView.swift in Sources */,
 				263CC287281FB630006637E3 /* InterfaceTopBar.swift in Sources */,
 				265C50C1281E9BBB00D0303C /* Hi_GApp.swift in Sources */,
 				263CC283281FB3E3006637E3 /* ViewsListView.swift in Sources */,
+				263CC29828215A98006637E3 /* AlertsView.swift in Sources */,
+				263CC29428214229006637E3 /* NavigationBarsView.swift in Sources */,
 				263CC29228211106006637E3 /* TabBarsView.swift in Sources */,
+				263CC29C2821709C006637E3 /* SheetsView.swift in Sources */,
 				263CC27D281F5C0E006637E3 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
