@@ -13,7 +13,7 @@ struct BarsListView: View {
         NavigationLink(destination: SearchBarsView(), label: { Text("Search Bars") })
         NavigationLink(destination: Text("Sidebars"), label: { Text("Sidebars") })
         NavigationLink(destination: Text("Status Bars"), label: { Text("Status Bars") })
-        NavigationLink(destination: Text("Tab Bars"), label: { Text("Tab Bars") })
+        NavigationLink(destination: TabBarsView(), label: { Text("Tab Bars") })
         NavigationLink(destination: Text("Toolbars"), label: { Text("Toolbars") })
     }
 }

@@ -16,6 +16,7 @@
 		263CC289281FC361006637E3 /* InterfaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC288281FC361006637E3 /* InterfaceList.swift */; };
 		263CC28E2820C00F006637E3 /* SearchBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC28D2820C00F006637E3 /* SearchBarsView.swift */; };
 		263CC2902820C59F006637E3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263CC28F2820C59F006637E3 /* Colors.xcassets */; };
+		263CC29228211106006637E3 /* TabBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC29128211106006637E3 /* TabBarsView.swift */; };
 		265C50C1281E9BBB00D0303C /* Hi_GApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C50C0281E9BBB00D0303C /* Hi_GApp.swift */; };
 		265C50C3281E9BBB00D0303C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C50C2281E9BBB00D0303C /* ContentView.swift */; };
 		265C50C5281E9BBC00D0303C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265C50C4281E9BBC00D0303C /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		263CC288281FC361006637E3 /* InterfaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceList.swift; sourceTree = "<group>"; };
 		263CC28D2820C00F006637E3 /* SearchBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarsView.swift; sourceTree = "<group>"; };
 		263CC28F2820C59F006637E3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		263CC29128211106006637E3 /* TabBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarsView.swift; sourceTree = "<group>"; };
 		265C50BD281E9BBB00D0303C /* Hi-G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hi-G.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		265C50C0281E9BBB00D0303C /* Hi_GApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi_GApp.swift; sourceTree = "<group>"; };
 		265C50C2281E9BBB00D0303C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				263CC28D2820C00F006637E3 /* SearchBarsView.swift */,
+				263CC29128211106006637E3 /* TabBarsView.swift */,
 			);
 			path = BarsList;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				263CC287281FB630006637E3 /* InterfaceTopBar.swift in Sources */,
 				265C50C1281E9BBB00D0303C /* Hi_GApp.swift in Sources */,
 				263CC283281FB3E3006637E3 /* ViewsListView.swift in Sources */,
+				263CC29228211106006637E3 /* TabBarsView.swift in Sources */,
 				263CC27D281F5C0E006637E3 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
