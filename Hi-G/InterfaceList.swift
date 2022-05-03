@@ -23,8 +23,14 @@ struct InterfaceList: View {
                 if topNavSelection == "Controls" {
                     ControlsListView()
                 }
-            }.frame(alignment: .leading)
+            }
+//            List {
+//                Section(header: Text("Views")) {
+//                    NavigationLink(destination: ContentView(), label: {Text("A")})
+//                }
+//            }
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

@@ -24,14 +24,14 @@ struct ContentView: View {
                     InterfaceView()
                         .tabItem {
                             Image(systemName: "rectangle.and.hand.point.up.left.filled")
-                            Text("Interface")
+                            Text("UI Components")
                         }
                         .tag(2)
                 }
                 .padding(.horizontal, 16)
             }
             .navigationTitle("Hi-G")
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarTitleDisplayMode(.large)
         }
     }
 }

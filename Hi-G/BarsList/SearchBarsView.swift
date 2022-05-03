@@ -59,21 +59,24 @@ struct SearchBarsView: View {
     var body: some View {
         VStack {
             SearchBar(isClearButtonVisible: self.$isClearButtonVisible, isCancelButtonVisible: self.$isCancelButtonVisible, isScopeBarVisible: self.$isScopeBarVisible)
+                .padding(.horizontal, 16)
                 .frame(height: 80, alignment: .top)
             Divider()
-            Toggle("Clear", isOn: $isClearButtonVisible)
-            Toggle("Cancel", isOn: $isCancelButtonVisible)
-            Toggle("Scope Bar", isOn: $isScopeBarVisible)
-                .tint(Color.red)
-            if isScopeBarVisible {
-                Text("Scope Bar를 사용하면 사람들이 검색 범위를 좁힐 수 있게 도움이 되지만, 검색 결과를 개선하는 것이 더 좋은 방법입니다.")
-                    .padding(10)
-                    .foregroundColor(Color.white)
-                    .background(RoundedRectangle(cornerRadius: 10).fill(Color.red))
+            VStack {
+                Toggle("Clear", isOn: $isClearButtonVisible)
+                Toggle("Cancel", isOn: $isCancelButtonVisible)
+                Toggle("Scope Bar", isOn: $isScopeBarVisible)
+                    .tint(Color.red)
+                if isScopeBarVisible {
+                    Text("Scope Bar를 사용하면 사람들이 검색 범위를 좁힐 수 있게 도움이 되지만, 검색 결과를 개선하는 것이 더 좋은 방법입니다.")
+                        .padding(10)
+                        .foregroundColor(Color.white)
+                        .background(RoundedRectangle(cornerRadius: 10).fill(Color.red))
+                }
+                Spacer()
             }
-            Spacer()
+            .padding(.horizontal, 16)
         }
-        .padding(.horizontal, 16)
         .navigationTitle("Search Bars")
     }
 }
