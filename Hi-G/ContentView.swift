@@ -27,6 +27,13 @@ struct ContentView: View {
                             Text("UI Components")
                         }
                         .tag(2)
+                    
+                    Text("Visual Design")
+                        .tabItem{
+                            Image(systemName: "house")
+                            Text("Visual Design")
+                        }
+                        .tag(3)
                 }
                 .padding(.horizontal, 16)
             }

@@ -15,11 +15,13 @@ struct ScrollViewsView: View {
             if selectedDirection == 1 {
                 ScrollView {
                     Text("화면을 위 아래로 당겨보세요.")
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
             }
             else {
                 ScrollView(.horizontal) {
                     Text("화면을 좌우로 당겨보세요.")
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
             }
             Picker("", selection: $selectedDirection, content: {

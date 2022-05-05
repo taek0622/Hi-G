@@ -22,6 +22,11 @@
 		263CC29828215A98006637E3 /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC29728215A98006637E3 /* AlertsView.swift */; };
 		263CC29A2821618C006637E3 /* ScrollViewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC2992821618C006637E3 /* ScrollViewsView.swift */; };
 		263CC29C2821709C006637E3 /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC29B2821709C006637E3 /* SheetsView.swift */; };
+		263CC29E28218F34006637E3 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC29D28218F34006637E3 /* ButtonsView.swift */; };
+		263CC2A02822456A006637E3 /* PickersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC29F2822456A006637E3 /* PickersView.swift */; };
+		263CC2A228224D5C006637E3 /* ProgressIndicatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC2A128224D5C006637E3 /* ProgressIndicatorsView.swift */; };
+		263CC2A428225398006637E3 /* SegmentedControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC2A328225398006637E3 /* SegmentedControlsView.swift */; };
+		263CC2A628226C8E006637E3 /* SliderStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CC2A528226C8E006637E3 /* SliderStepperView.swift */; };
 		265C50C1281E9BBB00D0303C /* Hi_GApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C50C0281E9BBB00D0303C /* Hi_GApp.swift */; };
 		265C50C3281E9BBB00D0303C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C50C2281E9BBB00D0303C /* ContentView.swift */; };
 		265C50C5281E9BBC00D0303C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265C50C4281E9BBC00D0303C /* Assets.xcassets */; };
@@ -45,6 +50,11 @@
 		263CC29728215A98006637E3 /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
 		263CC2992821618C006637E3 /* ScrollViewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsView.swift; sourceTree = "<group>"; };
 		263CC29B2821709C006637E3 /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
+		263CC29D28218F34006637E3 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		263CC29F2822456A006637E3 /* PickersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersView.swift; sourceTree = "<group>"; };
+		263CC2A128224D5C006637E3 /* ProgressIndicatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorsView.swift; sourceTree = "<group>"; };
+		263CC2A328225398006637E3 /* SegmentedControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlsView.swift; sourceTree = "<group>"; };
+		263CC2A528226C8E006637E3 /* SliderStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStepperView.swift; sourceTree = "<group>"; };
 		265C50BD281E9BBB00D0303C /* Hi-G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hi-G.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		265C50C0281E9BBB00D0303C /* Hi_GApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi_GApp.swift; sourceTree = "<group>"; };
 		265C50C2281E9BBB00D0303C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +98,11 @@
 		263CC28C2820BFAB006637E3 /* ControlsList */ = {
 			isa = PBXGroup;
 			children = (
+				263CC29D28218F34006637E3 /* ButtonsView.swift */,
+				263CC29F2822456A006637E3 /* PickersView.swift */,
+				263CC2A128224D5C006637E3 /* ProgressIndicatorsView.swift */,
+				263CC2A328225398006637E3 /* SegmentedControlsView.swift */,
+				263CC2A528226C8E006637E3 /* SliderStepperView.swift */,
 			);
 			path = ControlsList;
 			sourceTree = "<group>";
@@ -212,19 +227,24 @@
 			files = (
 				263CC28E2820C00F006637E3 /* SearchBarsView.swift in Sources */,
 				263CC281281FAECD006637E3 /* BarsListView.swift in Sources */,
+				263CC2A02822456A006637E3 /* PickersView.swift in Sources */,
 				263CC27F281FAD04006637E3 /* InterfaceView.swift in Sources */,
 				265C50CF281EA34B00D0303C /* HomeView.swift in Sources */,
 				265C50C3281E9BBB00D0303C /* ContentView.swift in Sources */,
+				263CC2A428225398006637E3 /* SegmentedControlsView.swift in Sources */,
 				263CC285281FB408006637E3 /* ControlsListView.swift in Sources */,
+				263CC29E28218F34006637E3 /* ButtonsView.swift in Sources */,
 				263CC29628215328006637E3 /* ActionSheetsView.swift in Sources */,
 				263CC289281FC361006637E3 /* InterfaceList.swift in Sources */,
 				263CC29A2821618C006637E3 /* ScrollViewsView.swift in Sources */,
+				263CC2A228224D5C006637E3 /* ProgressIndicatorsView.swift in Sources */,
 				263CC287281FB630006637E3 /* InterfaceTopBar.swift in Sources */,
 				265C50C1281E9BBB00D0303C /* Hi_GApp.swift in Sources */,
 				263CC283281FB3E3006637E3 /* ViewsListView.swift in Sources */,
 				263CC29828215A98006637E3 /* AlertsView.swift in Sources */,
 				263CC29428214229006637E3 /* NavigationBarsView.swift in Sources */,
 				263CC29228211106006637E3 /* TabBarsView.swift in Sources */,
+				263CC2A628226C8E006637E3 /* SliderStepperView.swift in Sources */,
 				263CC29C2821709C006637E3 /* SheetsView.swift in Sources */,
 				263CC27D281F5C0E006637E3 /* Data.swift in Sources */,
 			);
