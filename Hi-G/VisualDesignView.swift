@@ -11,9 +11,11 @@ struct VisualDesignView: View {
     var body: some View {
         List {
             NavigationLink(destination: SystemColorListView(), label: {
+                Image(systemName: "paintpalette")
                 Text("System Color")
             })
             NavigationLink(destination: SFSymbolsListView(), label: {
+                Image(systemName: "square.on.circle")
                 Text("SF Symbols")
             })
         }
