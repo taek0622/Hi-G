@@ -22,10 +22,21 @@ struct LandingButton: View {
 
 struct InterfaceView: View {
     var body: some View {
-        VStack(spacing: 20) {
-            LandingButton(btnText: "Bars")
-            LandingButton(btnText: "Views")
-            LandingButton(btnText: "Controls")
+//        VStack(spacing: 20) {
+////            LandingButton(btnText: "Bars")
+////            LandingButton(btnText: "Views")
+////            LandingButton(btnText: "Controls")
+//        }
+        List {
+            Section(header: Text("Bars").font(.system(size: 20)).bold().foregroundColor(Color.black)) {
+                BarsListView()
+            }
+            Section(header: Text("Bars").font(.system(size: 20)).bold().foregroundColor(Color.black)) {
+                ViewsListView()
+            }
+            Section(header: Text("Controls").font(.system(size: 20)).bold().foregroundColor(Color.black)) {
+                ControlsListView()
+            }
         }
     }
 }

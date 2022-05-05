@@ -33,6 +33,7 @@ struct ProgressIndicatorsView: View {
             .pickerStyle(.segmented)
         }
         .padding(.horizontal, 16)
+        .navigationBarTitle("Progress Indicators")
     }
 }
 
