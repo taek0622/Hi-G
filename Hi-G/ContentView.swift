@@ -28,15 +28,15 @@ struct ContentView: View {
                         }
                         .tag(2)
                     
-                    Text("Visual Design")
-                        .tabItem{
+                    VisualDesignView()
+                        .tabItem {
                             Image(systemName: "house")
                             Text("Visual Design")
                         }
                         .tag(3)
                 }
-                .padding(.horizontal, 16)
             }
+            .background(Color.backgroundColor)
             .navigationTitle("Hi-G")
             .navigationBarTitleDisplayMode(.large)
         }

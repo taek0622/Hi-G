@@ -12,25 +12,31 @@ struct InterfaceList: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            InterfaceTopBar(topNavSelection: self.$topNavSelection)
+//            InterfaceTopBar(topNavSelection: self.$topNavSelection)
+//            List {
+//                if topNavSelection == "Bars" {
+//                    BarsListView()
+//                }
+//                if topNavSelection == "Views" {
+//                    ViewsListView()
+//                }
+//                if topNavSelection == "Controls" {
+//                    ControlsListView()
+//                }
+//            }
             List {
-                if topNavSelection == "Bars" {
+                Section(header: Text("Bars").font(.system(size: 20)).bold().foregroundColor(Color.black)) {
                     BarsListView()
                 }
-                if topNavSelection == "Views" {
+                Section(header: Text("Bars").font(.system(size: 20)).bold().foregroundColor(Color.black)) {
                     ViewsListView()
                 }
-                if topNavSelection == "Controls" {
+                Section(header: Text("Controls").font(.system(size: 20)).bold().foregroundColor(Color.black)) {
                     ControlsListView()
                 }
             }
-//            List {
-//                Section(header: Text("Views")) {
-//                    NavigationLink(destination: ContentView(), label: {Text("A")})
-//                }
-//            }
         }
-        .navigationBarTitleDisplayMode(.inline)
+//        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
