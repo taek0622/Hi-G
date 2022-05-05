@@ -22,7 +22,7 @@ struct Accordion: View {
             Button(action: { isShowingAccordionContents.toggle() }, label: { Text(btnText) })
                 .foregroundColor(Color.black)
                 .frame(maxWidth: .infinity)
-                .background(Rectangle().fill(Color.white).shadow(color: Color.black, radius: 1, x: 0, y: 0))
+                .background(RoundedRectangle(cornerRadius: 10).fill(Color.white).shadow(color: Color.black, radius: 1, x: 0, y: 0))
         }
     }
 }

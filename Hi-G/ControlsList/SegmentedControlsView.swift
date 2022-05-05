@@ -47,6 +47,7 @@ struct SegmentedControlsView: View {
             }
         }
         .padding(.horizontal, 16)
+        .navigationTitle("Segmented Controls")
     }
 }
 

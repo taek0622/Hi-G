@@ -19,10 +19,9 @@ struct ControlsListView: View {
             NavigationLink(destination: PickersView(), label: { Text("Pickers") })
             NavigationLink(destination: ProgressIndicatorsView(), label: { Text("Progress Indicators") })
             NavigationLink(destination: Text("Refresh Content Controls"), label: { Text("Refresh Content Controls") })
-            NavigationLink(destination: Text("Segmented Controls"), label: { Text("Segmented Controls") })
+            NavigationLink(destination: SegmentedControlsView(), label: { Text("Segmented Controls") })
         }
-        NavigationLink(destination: Text("Sliders"), label: { Text("Sliders") })
-        NavigationLink(destination: Text("Steppers"), label: { Text("Steppers") })
+        NavigationLink(destination: SliderStepperView(), label: { Text("Sliders / Steppers") })
         NavigationLink(destination: Text("Switches"), label: { Text("Switches") })
         NavigationLink(destination: Text("Text Fields"), label: { Text("Text Fields") })
     }
