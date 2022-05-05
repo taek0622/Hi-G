@@ -30,7 +30,7 @@ struct ContentView: View {
                     
                     VisualDesignView()
                         .tabItem {
-                            Image(systemName: "house")
+                            Image(systemName: "paintpalette")
                             Text("Visual Design")
                         }
                         .tag(3)

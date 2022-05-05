@@ -28,7 +28,7 @@ struct InterfaceList: View {
                 Section(header: Text("Bars").font(.system(size: 20)).bold().foregroundColor(Color.black)) {
                     BarsListView()
                 }
-                Section(header: Text("Bars").font(.system(size: 20)).bold().foregroundColor(Color.black)) {
+                Section(header: Text("Views").font(.system(size: 20)).bold().foregroundColor(Color.black)) {
                     ViewsListView()
                 }
                 Section(header: Text("Controls").font(.system(size: 20)).bold().foregroundColor(Color.black)) {
