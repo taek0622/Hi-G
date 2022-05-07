@@ -13,6 +13,7 @@ struct SliderView: View {
     var body: some View {
         VStack {
             Slider(value: $cntSlider, in: -100...100, step: 0.1)
+            Text("\(cntSlider)")
         }
         .padding(.horizontal, 16)
     }
