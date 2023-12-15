@@ -83,7 +83,10 @@ struct SearchBarsView: View {
 
 struct SearchBarsView_Previews: PreviewProvider {
     static var previews: some View {
-        SearchBarsView()
+        NavigationView {
+            SearchBarsView()
+        }
+        
     }
 }
 
