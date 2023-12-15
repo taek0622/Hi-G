@@ -37,8 +37,7 @@ struct ContentView: View {
                 }
             }
             .background(Color.backgroundColor)
-            .navigationTitle("Hi-G")
-            .navigationBarTitleDisplayMode(.large)
+            .navigationTitle(isSelection == 1 ? "Hi-G" : (isSelection == 2 ? "UI Components" : "Visual Design"))
         }
     }
 }
