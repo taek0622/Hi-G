@@ -54,7 +54,11 @@ struct Accordion: View {
 //                .frame(maxWidth: .infinity, maxHeight: 50)
 //                .background(RoundedRectangle(cornerRadius: 10).fill(Color.white))
 //        }
-        Button(action: { isShowingAccordionContents.toggle() }, label: {
+        Button(action: {
+            withAnimation {
+                isShowingAccordionContents.toggle()
+            }
+        }, label: {
             HStack {
                 Text(btnText)
                     .font(.system(size: 20))
