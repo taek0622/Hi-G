@@ -203,11 +203,11 @@
 			};
 			buildConfigurationList = 265C50B8281E9BBB00D0303C /* Build configuration list for PBXProject "Hi-G" */;
 			compatibilityVersion = "Xcode 13.0";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ko,
 			);
 			mainGroup = 265C50B4281E9BBB00D0303C;
 			productRefGroup = 265C50BE281E9BBB00D0303C /* Products */;
