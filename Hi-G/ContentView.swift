@@ -16,22 +16,19 @@ struct ContentView: View {
                 Group() {
                     HomeView()
                         .tabItem {
-                            Image(systemName: "house")
-                            Text("Home")
+                            Label("Home", systemImage: "house")
                         }
                         .tag(1)
                     
                     InterfaceView()
                         .tabItem {
-                            Image(systemName: "rectangle.and.hand.point.up.left.filled")
-                            Text("UI Components")
+                            Label("UIComponents", systemImage: "rectangle.and.hand.point.up.left.filled")
                         }
                         .tag(2)
                     
                     VisualDesignView()
                         .tabItem {
-                            Image(systemName: "paintpalette")
-                            Text("Visual Design")
+                            Label("Visual Design", systemImage: "paintpalette")
                         }
                         .tag(3)
                 }
